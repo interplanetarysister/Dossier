@@ -1,0 +1,17 @@
+{
+  "purpose": "Synthetic PDF fixtures for future NAS validation; not runtime results",
+  "fixtures": {
+    "company-profile.pdf": {
+      "bytes": 2226,
+      "sha256": "23e2209bdb12f0ed653cc4ef9177ebeeaed797c75574b12363c12f7f77574f21"
+    },
+    "conflicting-price-list.pdf": {
+      "bytes": 2466,
+      "sha256": "87523934b4e57a1135f62139fb46e41fead5182abd30a5fc1743b45a3821aaaa"
+    },
+    "price-list.pdf": {
+      "bytes": 2334,
+      "sha256": "69055d5fb75d4eaec8e77fa51ebcdc529b9509267f78ef19012faecfb8bf0983"
+    }
+  }
+}

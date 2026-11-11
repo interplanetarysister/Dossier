@@ -105,6 +105,10 @@ Official sources: [requirements](https://ugreenhackathon.devpost.com/), [rules](
 
 See the [fictional proposal example](examples/README.md) for a brief, two supporting documents, and a source-referenced proposal. It is manually authored reference material, not a real Uliya execution result. Example files stay outside the submitted skill ZIP.
 
+## NAS validation materials
+
+The [validation pack](validation/README.md) contains synthetic PDF fixtures, a device runbook, and an honest results record. It prepares the two core cases and conflicting-price edge case; none has been executed on a NAS. The validation folder is excluded from the submission ZIP.
+
 ## Validation and further work
 
 The official `uliya-skill-kit` 0.7.3-en is obtained separately under UGREEN's terms. Its controlled checker is run in the development environment against `skills/dossier/`; the toolkit is not redistributed or included in the skill ZIP.
