@@ -1,0 +1,24 @@
+{
+  "hackathon_subdomain": "ugreenhackathon",
+  "project_slug": "dossier-whruys",
+  "custom_answers": [
+    {
+      "submission_field_id": 29378,
+      "value": "Team of individuals"
+    },
+    {
+      "submission_field_id": 29379,
+      "value": [
+        "United States"
+      ]
+    },
+    {
+      "submission_field_id": 29380,
+      "value": "Automate Your Workflow"
+    },
+    {
+      "submission_field_id": 29381,
+      "value": "11-11-26"
+    }
+  ]
+}

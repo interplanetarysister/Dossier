@@ -10,7 +10,7 @@ Dossier presents your offering favorably while preserving factual accuracy. It p
 
 **Initial hackathon package; NAS runtime testing pending.** The official UGREEN creation toolkit reports `static-pass` with **zero errors and zero warnings**. Static checks verify package structure and supported orchestration patterns. They do not prove installation, local model routing, device execution, or hackathon acceptance.
 
-The entry is being prepared for **UGREEN Hackathon 2026 — Automate Your Workflow**. Nothing has been submitted to Devpost or published to SkillHub by creating this repository.
+The entry is being prepared for **UGREEN Hackathon 2026 — Automate Your Workflow**. A [Devpost project page](https://devpost.com/software/dossier-whruys) now exists and the representative is registered. The UGREEN entry remains unsubmitted; nothing has been published to SkillHub.
 
 ## What it does
 
@@ -36,6 +36,11 @@ Once installed, an example request is:
 Supply the brief, recipient or purpose, chosen source files or folder, and destination. Dossier resolves the source set, gathers evidence, drafts and reviews the text, then asks you to confirm the concrete result before saving. Missing documents or material contradictions pause the workflow.
 
 Use synthetic or appropriately anonymized materials for hackathon testing. Never upload private business documents, credentials, or customer information to this repository.
+
+## Team
+
+- [interplanetarysister](https://github.com/interplanetarysister): project owner and authorized team representative.
+- [CloudNyne](https://github.com/Cloudnyne): team partner. GitHub collaborator access and Devpost team joining are pending.
 
 ## Skill workflow
 
@@ -74,7 +79,9 @@ Dossier/
     ├── Dossier-Initial-Skill.zip
     ├── static-check.json
     ├── artifact-checks.json
-    └── checklist.md
+    ├── checklist.md
+    ├── custom-answers.json
+    └── form-status.md
 ```
 
 Start with the [skill entry point](skills/dossier/SKILL.md), [implementation plan](docs/implementation-plan.md), and [validation record](docs/validation.md).
@@ -88,7 +95,7 @@ Start with the [skill entry point](skills/dossier/SKILL.md), [implementation pla
 
 Only `SKILL.md` and the linked `references/` files belong inside the skill ZIP. Repository documentation, the PDF, and checker JSON stay outside it. Do not upload the entire repository as the skill package.
 
-Round 1 closes **November 15, 2026, at 11:45 p.m. Pacific**. A public repository, NAS purchase, and demo video are not required for Round 1. The owner must review the proposal, confirm eligibility, complete any required entrant/team declarations, and submit through Devpost.
+Round 1 closes **November 15, 2026, at 11:45 p.m. Pacific**. A public repository, NAS purchase, and demo video are not required for Round 1. Registration and the representative’s eligibility confirmation are complete. The proposal PDF is attached to the Devpost draft. CloudNyne must join the project, the ZIP must be attached through the web form, and the remaining custom answers must be saved before final entry. See [form status](submission/form-status.md).
 
 Official sources: [requirements](https://ugreenhackathon.devpost.com/), [rules](https://ugreenhackathon.devpost.com/rules), [technical FAQ](https://ugreenhackathon.devpost.com/resources), and [starter kit](https://ai.ugreen.com/pages/hackathon-starter-kit).
 
