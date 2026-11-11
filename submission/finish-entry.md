@@ -36,7 +36,7 @@ The live event requirements also require an initial skill ZIP. The connector exp
 
 Confirm the team roster, source/license disclosures, PDF and ZIP attachments, and four custom answers. Keep the current statement that actual NAS testing is pending. Round 1 does not require a demo, screenshots or a public video.
 
-Final submission is a separate action and has not been performed. The deadline is November 15, 2026, at 11:45 p.m. Pacific, according to the live official requirements checked on 2026-11-11.
+Final submission has been authorized, but Devpost rejected the attempt because the required ZIP must be uploaded on the website. A direct ZIP link on the project did not satisfy that requirement. There is no recorded successful submission. The deadline is November 15, 2026, at 11:45 p.m. Pacific, according to the live official requirements checked on 2026-11-11.
 
 Official requirements: https://ugreenhackathon.devpost.com/
 
