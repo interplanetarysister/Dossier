@@ -25,4 +25,4 @@ Requirements: https://ugreenhackathon.devpost.com/
 
 Rules: https://ugreenhackathon.devpost.com/rules
 
-Do not upload the entire repository as the skill ZIP. Do not include checker JSON, this checklist, the proposal PDF, license or repository docs inside the skill package.
+Do not upload the entire repository as the skill ZIP. Do not include checker JSON, this checklist, the proposal PDF, root LICENSE file, examples or repository docs inside the skill package. The full license and third-party notices are already included as directly linked Markdown references.

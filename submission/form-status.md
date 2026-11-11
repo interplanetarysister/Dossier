@@ -22,3 +22,5 @@ Checked 2026-11-11 through the authenticated Devpost connector.
 - Authorization to submit remains in place; retry after the ZIP is attached and any other required team checks are completed.
 
 No private invitation links, personal email addresses, credentials or signatures are stored in this record. No claim is made that CloudNyne personally accepted event agreements through this conversation.
+
+The representative has said they will add the required ZIP later. Other preparation can continue, but the entry must remain unsubmitted until the service accepts the required attachment.

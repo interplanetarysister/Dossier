@@ -101,6 +101,10 @@ Round 1 closes **November 15, 2026, at 11:45 p.m. Pacific**. A public repository
 
 Official sources: [requirements](https://ugreenhackathon.devpost.com/), [rules](https://ugreenhackathon.devpost.com/rules), [technical FAQ](https://ugreenhackathon.devpost.com/resources), and [starter kit](https://ai.ugreen.com/pages/hackathon-starter-kit).
 
+## Illustrative example
+
+See the [fictional proposal example](examples/README.md) for a brief, two supporting documents, and a source-referenced proposal. It is manually authored reference material, not a real Uliya execution result. Example files stay outside the submitted skill ZIP.
+
 ## Validation and further work
 
 The official `uliya-skill-kit` 0.7.3-en is obtained separately under UGREEN's terms. Its controlled checker is run in the development environment against `skills/dossier/`; the toolkit is not redistributed or included in the skill ZIP.
