@@ -4,10 +4,10 @@ This guide covers the remaining web-form work. The project page is public; the U
 
 ## Download the two entry files
 
-Use the v0.1.0-round1 GitHub prerelease assets:
+Use the committed files in this repository:
 
-- Dossier-Project-Proposal.pdf: the separate proposal answering all ten official questions.
-- Dossier-Initial-Skill.zip: only SKILL.md and its five Markdown references, including licensing notices.
+- [Dossier-Project-Proposal.pdf](Dossier-Project-Proposal.pdf): the separate proposal answering all ten official questions.
+- [Dossier-Initial-Skill.zip](Dossier-Initial-Skill.zip): only SKILL.md and its five Markdown references, including licensing notices.
 
 Do not use GitHub's automatically generated source-code archive as the skill ZIP. It includes repository documentation and submission files that do not belong inside the skill package.
 

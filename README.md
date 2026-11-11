@@ -88,7 +88,7 @@ Start with the [skill entry point](skills/dossier/SKILL.md), [implementation pla
 
 ## Round 1 submission materials
 
-Download the prepared files from the [v0.1.0-round1 prerelease](https://github.com/interplanetarysister/Dossier/releases/tag/v0.1.0-round1). Use the named skill ZIP asset rather than GitHub's source-code archive. See [finish the entry](submission/finish-entry.md) for the remaining web-form steps.
+Download the [skill ZIP](https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Initial-Skill.zip) and [proposal PDF](https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Project-Proposal.pdf) directly from the repository. Use the named skill ZIP rather than GitHub's source-code archive. See [finish the entry](submission/finish-entry.md) for the remaining web-form steps.
 
 - [Project proposal PDF](submission/Dossier-Project-Proposal.pdf): answers the ten required questions; the substantive responses total 318 words.
 - [Initial skill ZIP](submission/Dossier-Initial-Skill.zip): the skill entry point and five linked Markdown references, including the full license and third-party notices.
