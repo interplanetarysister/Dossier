@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-11",
+  "license": "AGPL-3.0-only",
+  "full_license_in_skill_zip": true,
+  "proposal_substantive_word_count": 318,
+  "proposal_pdf_bytes": 4177,
+  "skill_zip_bytes": 21517,
+  "skill_uncompressed_bytes": 54706,
+  "skill_file_count": 6,
+  "archive_entries": [
+    "SKILL.md",
+    "references/disclosures-and-validation.md",
+    "references/evidence-rules.md",
+    "references/license.md",
+    "references/proposal-structure.md",
+    "references/third-party-notices.md"
+  ],
+  "archive_integrity": "passed",
+  "checker_hashes_match_packaged_sources": true,
+  "static_result": "static-pass",
+  "runtime_validation": "not performed",
+  "artifacts": {
+    "Dossier-Project-Proposal.pdf": "35dfc6580e439ac32cf78d9d647966de5a2e6bdd51e2b4f3ee926ac008f11a70",
+    "Dossier-Initial-Skill.zip": "7c93cfe3eac88a9141e9112d491cb9ea9d243fe2a736a55a84b77eedfd349242"
+  }
+}

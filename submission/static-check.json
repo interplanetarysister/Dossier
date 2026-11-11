@@ -1,0 +1,42 @@
+{
+  "checkFormatVersion": "2.0.0",
+  "status": "static-pass",
+  "target": {
+    "skillName": "dossier"
+  },
+  "catalog": {
+    "checkedVersion": "2.0.0"
+  },
+  "files": [
+    {
+      "path": "references/disclosures-and-validation.md",
+      "sha256": "00c99cdf0873ac7ac860af4255a5398fe5437eb1e2e1a584b85ec8c897660f99"
+    },
+    {
+      "path": "references/evidence-rules.md",
+      "sha256": "275c4abfb803b6d68dd9d6e9dd64fb2c71d5ecb75df0d74eaf53c55a39078f01"
+    },
+    {
+      "path": "references/license.md",
+      "sha256": "b7d6248f3135329bbfb4588e18d30cb097c3748c114ed4aa6c592f770b815feb"
+    },
+    {
+      "path": "references/proposal-structure.md",
+      "sha256": "b8b77171bedfa820846d2a9e7051867b27e94a58f617e45d7c83b75d0ec77701"
+    },
+    {
+      "path": "references/third-party-notices.md",
+      "sha256": "94e8cde2f0461bc48fb5252f51810a9652c356ccb69abc01b83db91b1e5b97fe"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "db44107eb06731226a161d4e9a699670152c16765c32743a7ee293bac870c848"
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "info": 0
+  },
+  "diagnostics": []
+}
