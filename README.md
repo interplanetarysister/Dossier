@@ -10,7 +10,7 @@ Dossier presents your offering favorably while preserving factual accuracy. It p
 
 **Initial hackathon package; NAS runtime testing pending.** The official UGREEN creation toolkit reports `static-pass` with **zero errors and zero warnings**. Static checks verify package structure and supported orchestration patterns. They do not prove installation, local model routing, device execution, or hackathon acceptance.
 
-The entry is being prepared for **UGREEN Hackathon 2026 — Automate Your Workflow**. A [Devpost project page](https://devpost.com/software/dossier-whruys) now exists and the representative is registered. The UGREEN entry remains unsubmitted; nothing has been published to SkillHub.
+The entry is being prepared for **UGREEN Hackathon 2026 — Automate Your Workflow**. The owner identifies [Dossier](https://devpost.com/software/dossier-hvi8m7) as the correct project and reports UGREEN entry 1296390 is submitted. The connector cannot currently access that project; earlier edits targeted a separate duplicate. See the [correct-entry record](submission/correct-entry.md). Nothing has been published to SkillHub by this work.
 
 ## What it does
 
@@ -97,7 +97,7 @@ Download the [skill ZIP](https://github.com/interplanetarysister/Dossier/raw/ref
 
 Only `SKILL.md` and the linked `references/` files belong inside the skill ZIP. Repository documentation, the PDF, and checker JSON stay outside it. Do not upload the entire repository as the skill package.
 
-Round 1 closes **November 15, 2026, at 11:45 p.m. Pacific**. A public repository, NAS purchase, and demo video are not required for Round 1. Registration and the representative’s eligibility confirmation are complete. The proposal PDF is attached to the Devpost draft. CloudNyne must join the project, the ZIP must be attached through the web form, and the remaining custom answers must be saved before final entry. See [form status](submission/form-status.md).
+Round 1 closes **November 15, 2026, at 11:45 p.m. Pacific**. A public repository, NAS purchase, and demo video are not required for Round 1. Registration and the representative’s eligibility confirmation are complete. Earlier attachment confirmations apply to the duplicate entry, not the owner’s correct entry 1296390. The correct entry’s files, fields and team roster still need verification. See the [correct-entry record](submission/correct-entry.md); the older [form status](submission/form-status.md) concerns the duplicate.
 
 Official sources: [requirements](https://ugreenhackathon.devpost.com/), [rules](https://ugreenhackathon.devpost.com/rules), [technical FAQ](https://ugreenhackathon.devpost.com/resources), and [starter kit](https://ai.ugreen.com/pages/hackathon-starter-kit).
 
