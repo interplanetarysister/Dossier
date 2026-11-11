@@ -1,66 +1,136 @@
 # Dossier — saved Devpost write-up
 
-## 1. What does the Skill do?
+## Dossier: a stronger proposal, grounded in your own documents
+
+Your business already has useful material: a company profile, a service description, a price list, and perhaps customer requirements or existing research. Dossier is designed to turn those scattered files into a clear, persuasive business proposal while keeping its factual claims connected to their sources.
+
+Give it a short brief, identify the intended recipient, choose the documents it may use, and select an output location. Its authored workflow brings the evidence together, foregrounds the offering's supported strengths, reviews the draft, and saves approved proposal text. Real NAS execution remains pending validation.
+
+## 1. What does your Skill do?
 
 Dossier turns a business brief and selected NAS documents into a persuasive professional proposal draft with traceable supporting facts.
 
 ## 2. Who is your target user, and what is their problem?
 
-Small business owners and independent professionals have useful company information scattered across documents but need a coherent proposal tailored to a recipient.
+Small business owners, independent professionals, and small teams often have the information needed for a proposal spread across several documents. Turning it into a coherent presentation takes repeated reading, copying, checking, and rewriting.
+
+Dossier focuses on producing the proposal. It does not score the idea, evaluate business viability, or provide unsolicited business advice.
 
 ## 3. What is your solution?
 
-A single Uliya skill extracts relevant evidence, foregrounds documented benefits, drafts a proposal, reviews factual claims, and saves approved text. It produces proposals, not business advice.
+A single Markdown-based Uliya skill coordinates document discovery, evidence extraction, drafting, factual review, and approved saving. It presents the user's offering favorably through accurate, relevant evidence.
+
+The intended draft can include an executive summary, customer need, offering, benefits, documented differences, supplied commercial terms, a next step, and source notes. Sections are included only when the brief and supporting materials justify them. Vocabulary and headings adapt to the business field; elaborate visual document design is outside this release.
 
 ## 4. What is the main user flow?
 
-Provide a brief, recipient, authorized source documents, and destination. Resolve missing or conflicting details. Review the proposal, confirm saving, and receive its verified output location.
+1. Describe the offering and recipient. Select the source documents and authorize the output destination.
+2. Resolve the source set. Dossier identifies actual files within the selected scope.
+3. Extract evidence. Preserve facts, prices, units, dates, qualifications, and available source references.
+4. Draft and review. Create an opportunity-led proposal, then check factual claims against that evidence.
+5. Approve and save. Show the concrete text before saving, and report the actual output path only after verification.
+
+For large folders, the skill asks the user to narrow the set to at most twenty documents. This is Dossier's usability limit, not a claimed UGREEN platform limit.
 
 ## 5. How is your idea different from existing tools or common AI solutions?
 
-Dossier combines persuasive writing with traceability to private NAS source material. It preserves prices, qualifications, and source references rather than treating a generic prompt as sufficient evidence.
+Dossier combines proposal writing with an explicit evidence workflow over authorized NAS materials. The instructions require source references and preserve commercial details rather than relying on a general writing prompt alone.
+
+For example, the repository's fictional office-cleaning illustration uses a documented USD 360 monthly plan with two visits, a defined scope, and exclusions. The proposal highlights those concrete strengths without inventing clients, certifications, market demand, or competitor weaknesses.
+
+That example is manually authored reference material, not output from a tested Uliya run:
+https://github.com/interplanetarysister/Dossier/tree/main/examples
 
 ## 6. Which UGREEN AI NAS features does your Skill use, and at which step?
 
-File discovery identifies authorized sources. Document extraction and question answering establish evidence. Document writing drafts and checks claims. Text saving stores the reviewed result.
+| Stage | Published capability | Registered expert |
+| --- | --- | --- |
+| Discover selected sources and check saved output | ug-filesystem | file-agent |
+| Extract facts, answer source questions, draft, and review | ug-document | document-agent |
+| Save the approved text | ug-knowledge | knowledge-agent |
+
+The NAS provides the intended private document library and output storage. These mappings come from the official toolkit's published catalog; their actual runtime behavior still requires device testing.
 
 ## 7. What is your technical approach?
 
-A Markdown-only SKILL.md orchestrates file-agent through ug-filesystem, document-agent through ug-document, and knowledge-agent through ug-knowledge. Each delegation includes concrete inputs and consumes verified completed results. Source documents remain unchanged. Processing must remain local; otherwise the workflow stops. Saving requires authorization and verification. No external API, paid integration, custom runtime, or bundled model is required. Local model availability is pending device validation.
+The package contains SKILL.md and five directly linked Markdown references covering structure, evidence rules, disclosures, licensing, and third-party notices. It includes no custom runtime, executable scripts, model weights, datasets, fonts, or images.
+
+Each delegation must contain concrete inputs and constraints. Dependent steps consume real results from completed expert operations. Source documents are treated as reference data, not instructions that can expand permissions or redirect the workflow.
+
+The authored behavior requires local processing. If local routing cannot be ensured, it stops rather than transmitting the source documents externally. Actual routing must be verified on the NAS. No specific model or free host access is promised.
+
+Empty results, partial extraction, contradictions, cancellation, failed saving, and approval waiting have explicit handling. Source files remain unchanged; an existing output must not be silently overwritten.
 
 ## 8. What have you built so far? What is not built yet? What still needs testing on a NAS?
 
-The skill and linked references are authored. The official toolkit checker reports static-pass with zero errors and warnings. NAS installation, local routing, real document processing, and output behavior remain untested pending finalist access.
+Prepared and checked:
+- The six-file Markdown skill package and linked guidance.
+- Official uliya-skill-kit 0.7.3-en static checking: zero errors and zero warnings.
+- Package integrity, file hashes, and submission artifact sizes.
+- A fictional brief, supporting documents, and illustrative proposal.
+- Synthetic PDF fixtures, an acceptance runbook, and a results record that marks device checks unexecuted.
+- A separate Round 1 proposal PDF with 318 substantive words.
+
+Pending:
+- Installation and invocation on the assigned NAS.
+- Local model availability and routing.
+- Real extraction, proposal quality, approvals, saving, and saved-content verification.
+- Supported input and output formats.
+
+Static validation does not establish runtime success.
 
 ## 9. How will you test your Skill if you become a Finalist? Name two core test cases and one edge case.
 
-Core case one: draft from a synthetic company profile and price list, preserving exact facts and verified saving. Core case two: revise the brief and create a separate output without changing sources. Edge case: conflicting prices trigger clarification instead of invented figures.
+Core case 1: draft from a synthetic company profile and price list. Check exact prices, visit frequency, inclusions, exclusions, source notes, approval, and verified saving.
+
+Core case 2: revise the recipient while reusing the same sources. Confirm facts remain accurate and a prior output is not silently overwritten.
+
+Edge case: supply two equally dated price lists showing USD 360 and USD 460 for the same plan. Dossier must ask which source is authoritative rather than choose the more favorable figure.
+
+Additional observations cover source-instruction resistance, empty results, partial extraction, approval waiting, cancellation, and save failure.
+
+Validation materials:
+https://github.com/interplanetarysister/Dossier/tree/main/validation
 
 ## 10. What are the known limits, risks, or outside dependencies of your Skill?
 
-Requires compatible Uliya experts and authorized source files. No live research, guaranteed source freshness, generated charts, embedded photos, designed PDF export, or confirmed mobile support. Host access and hardware are not promised free. Runtime formats and reliability require NAS testing.
+This version requires a compatible Uliya host, the registered experts above, authorized source documents, and permission to save text. Processing and document quality depend on the host capabilities and model.
 
-## Third-party and AI disclosures
+It does not perform live web research, guarantee current market statistics, generate charts, embed photos, produce designed PDFs, send proposals externally, or claim verified mobile support. It uses relevant dated evidence within the supplied documents and does not present that as a check of the latest public data.
 
-Development uses UGREEN's official uliya-skill-kit 0.7.3-en, catalog 2.0.0, under UGREEN's applicable agreements; it is not redistributed. Source: https://ai.ugreen.com/pages/hackathon-starter-kit. No third-party runtime libraries, datasets, images, or models are bundled. Original Dossier files use AGPL-3.0-only. Codex/OpenAI assisted authoring, implementation, checks and submission preparation; Exa retrieved official requirements. Acumen supported preliminary feasibility research only. ReportLab 4.4.9 (BSD-style license; reportlab.com) renders this PDF during development only and is not bundled. No external runtime service or data flow is introduced. No retrieved personal writing-style match is claimed.
+No paid API, subscription, premium builder, or external research service is required by the skill. Hardware and host access may have costs.
 
-## Confirmed entry and registration answers
+## Team and confirmed entry details
+
+Team: interplanetarysister and CloudNyne. Both members reside in the United States. The project owner has confirmed authority to represent the team.
 
 - Submitter type: Team of individuals.
-- Team members: interplanetarysister and CloudNyne. The representative has confirmed authorization to act for the two-person team; CloudNyne must join the Devpost project separately.
-- Country of residence: United States for both team members.
 - Track: Automate Your Workflow.
-- Development start date: 11-11-26.
-- Have you used a NAS before? I have never used a NAS.
-- Have you built with local or self-hosted AI before? No, this is my first time.
+- Development start: 11-11-26.
+- Representative's registration answers: I have never used a NAS; No, this is my first time building with local or self-hosted AI.
 
-## Entry files and status
+These details are recorded in the project write-up. Their presence here does not prove the separate submission-form fields are saved or the entry is finalized.
 
-Repository: https://github.com/interplanetarysister/Dossier
+## Licensing, third-party tools, and AI assistance
 
-Initial skill ZIP: https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Initial-Skill.zip
+Original Dossier material is AGPL-3.0-only. The full license and third-party notices are included in the skill's Markdown references.
 
-Project proposal PDF: https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Project-Proposal.pdf
+UGREEN's official uliya-skill-kit 0.7.3-en, catalog 2.0.0, was used for capability research and static checking under UGREEN's applicable agreements. The toolkit is not redistributed or relicensed.
 
-The proposal PDF is attached to the Devpost draft. The required ZIP must be uploaded through the official website: Devpost rejected final submission because that attachment is missing. A download link does not replace the required attachment. The custom entry answers above are recorded here in the project write-up; their persistence in the separate submission form has not been verified. This entry is not yet submitted.
+Codex/OpenAI assisted requirements interpretation, authoring, repository work, validation, and entry preparation. Exa retrieved official requirements. Acumen was consulted during preliminary feasibility research. ReportLab 4.4.9, under its BSD-style license, rendered the separate entry PDF and synthetic PDF fixtures during development; it is not a skill dependency. The source repository contains the detailed notices.
+
+This is an independent project, not an official UGREEN product. No real customer documents or genuine NAS output are presented as test evidence.
+
+## Source and entry files
+
+Repository:
+https://github.com/interplanetarysister/Dossier
+
+Initial skill ZIP:
+https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Initial-Skill.zip
+
+Round 1 project proposal PDF:
+https://github.com/interplanetarysister/Dossier/raw/refs/heads/main/submission/Dossier-Project-Proposal.pdf
+
+The PDF is the event entry document, not a claim that the skill exports PDF. A ZIP download link does not replace the required web-form attachment. As of the latest live check, the UGREEN entry has no submission timestamp.
 
